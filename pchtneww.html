@@ -1,0 +1,5472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Pink City Home Tuition | Class 11 & 12 Tuition in Khatipura, Jaipur
+    </title>
+    <!-- Jaipur / Pink City brand favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27%23d86872%27/%3E%3Cpath d=%27M18 42V23l14-8 14 8v19%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%274%27 stroke-linejoin=%27round%27/%3E%3Cpath d=%27M25 42V31h14v11M21 25h22%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%274%27 stroke-linecap=%27round%27/%3E%3Ccircle cx=%2751%27 cy=%2714%27 r=%276%27 fill=%27%23ff8052%27/%3E%3C/svg%3E"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27%23d86872%27/%3E%3Cpath d=%27M18 42V23l14-8 14 8v19%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%274%27 stroke-linejoin=%27round%27/%3E%3Cpath d=%27M25 42V31h14v11M21 25h22%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%274%27 stroke-linecap=%27round%27/%3E%3Ccircle cx=%2751%27 cy=%2714%27 r=%276%27 fill=%27%23ff8052%27/%3E%3C/svg%3E"
+    />
+
+    <meta
+      name="description"
+      content="Personalised home tuition in Khatipura, Jaipur for Class 11 & 12 Mathematics and Computer Science. One-to-one support for CBSE, RBSE and ICSE students near Aravalli Hills."
+    />
+
+    <meta name="theme-color" content="#d86872" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+
+    <!-- =========================================================
+     FONTS
+========================================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- =========================================================
+     FONT AWESOME
+========================================================= -->
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      />
+    </noscript>
+
+    <style>
+      /* =========================================================
+   01. DESIGN TOKENS (PINK CITY & ARAVALLI THEME)
+========================================================= */
+
+      :root {
+        --pink-city: #d86872;
+        --pink-dark: #b84a55;
+        --pink-light: #fdf0f2;
+        --terracotta: #e07a5f;
+
+        --navy: #0d1426;
+        --navy-2: #121c35;
+        --ink: #111827;
+
+        --blue: #3f5cff;
+        --blue-dark: #2843d4;
+        --blue-light: #eef1ff;
+
+        --orange: #ff8052;
+        --orange-light: #fff0e9;
+
+        --green: #19aa6c;
+        --green-light: #e8f8f0;
+
+        --cream: #fffbf8;
+        --white: #ffffff;
+
+        --text: #182230;
+        --muted: #697586;
+
+        --line: rgba(216, 104, 114, 0.15);
+
+        --shadow-sm: 0 12px 30px rgba(216, 104, 114, 0.08);
+
+        --shadow: 0 30px 80px rgba(13, 20, 38, 0.1);
+
+        --shadow-xl: 0 40px 120px rgba(13, 20, 38, 0.16);
+
+        --radius: 28px;
+
+        --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      /* =========================================================
+   02. RESET
+========================================================= */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "DM Sans", sans-serif;
+        color: var(--text);
+        background: var(--cream);
+        overflow-x: hidden;
+      }
+
+      body.no-scroll {
+        overflow: hidden;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Manrope", sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      button,
+      input,
+      select,
+      textarea {
+        font: inherit;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .container {
+        width: min(1180px, calc(100% - 40px));
+        margin: auto;
+      }
+
+      section {
+        padding: 125px 0;
+        position: relative;
+      }
+
+      ::selection {
+        background: var(--pink-city);
+        color: #fff;
+      }
+
+      /* =========================================================
+   03. LOADER
+========================================================= */
+
+      .loader {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        background: var(--navy);
+        display: grid;
+        place-items: center;
+        transition:
+          opacity 0.9s var(--ease),
+          visibility 0.9s var(--ease);
+      }
+
+      .loader.done {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .loader-content {
+        text-align: center;
+        color: white;
+      }
+
+      .loader-logo {
+        width: 92px;
+        height: 92px;
+        margin: auto;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 28px;
+
+        background: linear-gradient(
+          135deg,
+          var(--pink-city),
+          var(--terracotta)
+        );
+
+        box-shadow: 0 25px 70px rgba(216, 104, 114, 0.4);
+
+        animation: teacherFloat 2s ease-in-out infinite;
+      }
+
+      .loader-logo i {
+        font-size: 36px;
+      }
+
+      .loader-title {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        margin-top: 23px;
+        font-size: 18px;
+      }
+
+      .loader-subtitle {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 12px;
+        margin-top: 7px;
+      }
+
+      .loader-progress {
+        width: 190px;
+        height: 3px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 100px;
+        margin: 21px auto 0;
+        overflow: hidden;
+      }
+
+      .loader-progress span {
+        display: block;
+        width: 40%;
+        height: 100%;
+        background: var(--pink-city);
+        border-radius: 100px;
+        animation: loaderProgress 1.3s infinite;
+      }
+
+      @keyframes loaderProgress {
+        0% {
+          transform: translateX(-120%);
+        }
+
+        100% {
+          transform: translateX(350%);
+        }
+      }
+
+      /* =========================================================
+   04. NAVIGATION
+========================================================= */
+
+      .navbar {
+        position: fixed;
+        z-index: 5000;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        padding: 19px 0;
+
+        transition: padding 0.4s var(--ease);
+      }
+
+      .navbar.scrolled {
+        padding: 10px 0;
+      }
+
+      .nav-shell {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 10px 12px 10px 18px;
+
+        border-radius: 100px;
+
+        background: rgba(255, 255, 255, 0.88);
+
+        border: 1px solid rgba(216, 104, 114, 0.2);
+
+        backdrop-filter: blur(14px);
+
+        box-shadow: 0 15px 50px rgba(216, 104, 114, 0.08);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+      }
+
+      .brand-icon {
+        width: 42px;
+        height: 42px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 13px;
+
+        background: var(--pink-city);
+        color: white;
+
+        box-shadow: 0 10px 25px rgba(216, 104, 114, 0.3);
+      }
+
+      .brand-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        line-height: 1.05;
+        color: var(--navy);
+      }
+
+      .brand-text small {
+        display: block;
+        color: var(--pink-dark);
+        font-family: "DM Sans", sans-serif;
+        font-size: 9px;
+        font-weight: 700;
+        margin-top: 4px;
+        letter-spacing: 0.5px;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .nav-links a {
+        font-size: 13px;
+        font-weight: 700;
+        color: #3f4755;
+        position: relative;
+      }
+
+      .nav-links a::after {
+        content: "";
+
+        position: absolute;
+
+        left: 0;
+        bottom: -7px;
+
+        width: 0;
+        height: 2px;
+
+        background: var(--pink-city);
+
+        transition: 0.3s;
+      }
+
+      .nav-links a:hover::after {
+        width: 100%;
+      }
+
+      .nav-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+
+        padding: 13px 18px;
+
+        border-radius: 100px;
+
+        background: var(--pink-city);
+        color: white;
+
+        font-size: 12px;
+        font-weight: 800;
+
+        transition: 0.35s var(--ease);
+      }
+
+      .nav-cta:hover {
+        background: var(--pink-dark);
+        box-shadow: 0 10px 25px rgba(216, 104, 114, 0.35);
+      }
+
+      .nav-toggle {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+        display: none;
+        width: 42px;
+        height: 42px;
+        flex: 0 0 42px;
+        border: 1px solid var(--line);
+        border-radius: 13px;
+        background: rgba(255, 255, 255, 0.9);
+        color: var(--ink);
+        cursor: pointer;
+        place-items: center;
+        font-size: 16px;
+      }
+
+      .mobile-nav {
+        display: none;
+      }
+
+      /* =========================================================
+   05. HERO WITH ARAVALLI MOUNTAIN SILHOUETTE
+========================================================= */
+
+      .hero {
+        min-height: 100vh;
+
+        padding: 155px 0 120px;
+
+        display: flex;
+        align-items: center;
+
+        overflow: hidden;
+
+        background:
+          radial-gradient(
+            circle at 88% 12%,
+            rgba(216, 104, 114, 0.15),
+            transparent 35%
+          ),
+          radial-gradient(
+            circle at 5% 80%,
+            rgba(224, 122, 95, 0.12),
+            transparent 30%
+          ),
+          var(--cream);
+      }
+
+      /* SVG Mountain Background Decoration */
+      .mountain-bg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 180px;
+        pointer-events: none;
+        z-index: 1;
+        opacity: 0.45;
+      }
+
+      .hero-grid {
+        display: grid;
+
+        grid-template-columns:
+          1.02fr
+          0.98fr;
+
+        gap: 70px;
+
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+
+        padding: 9px 14px;
+
+        background: var(--pink-light);
+        color: var(--pink-dark);
+
+        border-radius: 100px;
+
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 0.6px;
+
+        margin-bottom: 25px;
+
+        animation: badgeIn 1s 0.3s both;
+      }
+
+      @keyframes badgeIn {
+        from {
+          opacity: 0;
+          transform: translateY(15px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      .status-dot {
+        width: 7px;
+        height: 7px;
+
+        border-radius: 50%;
+
+        background: #20c778;
+
+        box-shadow: 0 0 0 6px rgba(32, 199, 120, 0.11);
+
+        animation: statusPulse 2s infinite;
+      }
+
+      .hero h1 {
+        font-size: clamp(50px, 6vw, 84px);
+
+        line-height: 0.97;
+
+        letter-spacing: -4px;
+
+        max-width: 760px;
+
+        animation: heroTitle 1s 0.15s both;
+      }
+
+      .hero h1 .accent {
+        color: var(--pink-city);
+        position: relative;
+      }
+
+      .hero h1 .accent::after {
+        content: "";
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+
+        height: 9px;
+
+        bottom: -5px;
+
+        background: var(--terracotta);
+
+        opacity: 0.35;
+
+        border-radius: 100%;
+
+        transform: rotate(-2deg) scaleX(0.9);
+
+        transform-origin: left;
+
+        animation: underlineReveal 1.2s 1s both;
+      }
+
+      .hero-description {
+        max-width: 620px;
+
+        color: var(--muted);
+
+        font-size: 18px;
+
+        line-height: 1.75;
+
+        margin: 29px 0 30px;
+
+        animation: fadeUp 1s 0.45s both;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+
+        animation: fadeUp 1s 0.6s both;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        padding: 17px 22px;
+
+        border-radius: 15px;
+
+        font-size: 13px;
+        font-weight: 900;
+
+        transition:
+          transform 0.35s var(--ease),
+          box-shadow 0.35s,
+          background 0.35s;
+      }
+
+      .btn-primary {
+        background: var(--pink-city);
+        color: white;
+
+        box-shadow: 0 16px 35px rgba(216, 104, 114, 0.3);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-4px);
+        background: var(--pink-dark);
+        box-shadow: 0 23px 45px rgba(216, 104, 114, 0.4);
+      }
+
+      .btn-secondary {
+        background: white;
+
+        border: 1px solid var(--line);
+
+        color: var(--ink);
+      }
+
+      .btn-secondary:hover {
+        transform: translateY(-4px);
+
+        box-shadow: var(--shadow-sm);
+      }
+
+      .hero-reassurance {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+
+        margin-top: 28px;
+
+        color: var(--muted);
+
+        font-size: 11px;
+      }
+
+      .avatar-stack {
+        display: flex;
+      }
+
+      .avatar {
+        width: 30px;
+        height: 30px;
+
+        border-radius: 50%;
+
+        background: linear-gradient(135deg, var(--pink-light), #fff);
+
+        border: 2px solid var(--cream);
+
+        margin-left: -7px;
+
+        display: grid;
+        place-items: center;
+
+        color: var(--pink-city);
+
+        font-size: 10px;
+      }
+
+      .avatar:first-child {
+        margin-left: 0;
+      }
+
+      /* =========================================================
+   06. HERO VISUAL
+========================================================= */
+
+      .hero-visual {
+        min-height: 620px;
+
+        position: relative;
+
+        transition: transform 0.2s ease-out;
+      }
+
+      .teacher-photo {
+        position: absolute;
+
+        right: 15px;
+        top: 20px;
+
+        width: min(430px, 90%);
+        height: 555px;
+
+        border-radius: 36px;
+
+        overflow: hidden;
+
+        transform: rotate(2.5deg);
+
+        box-shadow: var(--shadow-xl);
+
+        z-index: 2;
+
+        transition: transform 0.6s var(--ease);
+      }
+
+      .teacher-photo:hover {
+        transform: rotate(0) translateY(-10px);
+      }
+
+      .teacher-photo img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        transition: transform 1.2s var(--ease);
+      }
+
+      .teacher-photo:hover img {
+        transform: scale(1.06);
+      }
+
+      .teacher-photo::after {
+        content: "";
+
+        position: absolute;
+
+        inset: 0;
+
+        background: linear-gradient(
+          to bottom,
+          transparent 45%,
+          rgba(13, 20, 38, 0.88)
+        );
+      }
+
+      .teacher-details {
+        position: absolute;
+
+        right: 27px;
+        bottom: 26px;
+
+        z-index: 3;
+
+        color: white;
+      }
+
+      .teacher-details small {
+        color: rgba(255, 255, 255, 0.7);
+
+        font-size: 10px;
+
+        text-transform: uppercase;
+
+        letter-spacing: 1px;
+      }
+
+      .teacher-details h3 {
+        font-size: 28px;
+
+        margin-top: 5px;
+      }
+
+      .teacher-details p {
+        font-size: 12px;
+
+        color: rgba(255, 255, 255, 0.75);
+
+        margin-top: 5px;
+      }
+
+      .floating-card {
+        position: absolute;
+
+        z-index: 5;
+
+        background: white;
+
+        border: 1px solid rgba(216, 104, 114, 0.2);
+
+        box-shadow: var(--shadow);
+
+        border-radius: 20px;
+
+        padding: 14px 16px;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 11px;
+
+        animation: floatCard 5s ease-in-out infinite;
+      }
+
+      .floating-icon {
+        width: 42px;
+        height: 42px;
+
+        border-radius: 13px;
+
+        display: grid;
+        place-items: center;
+
+        background: var(--pink-light);
+
+        color: var(--pink-city);
+      }
+
+      .floating-text strong {
+        display: block;
+
+        font-family: "Manrope", sans-serif;
+
+        font-size: 12px;
+      }
+
+      .floating-text span {
+        display: block;
+
+        color: var(--muted);
+
+        font-size: 10px;
+
+        margin-top: 2px;
+      }
+
+      .card-a {
+        top: 90px;
+        left: -5px;
+      }
+
+      .card-b {
+        bottom: 82px;
+        left: 20px;
+        animation-delay: 1s;
+      }
+
+      .card-c {
+        top: 10px;
+        right: -8px;
+        animation-delay: 2s;
+      }
+
+      @keyframes floatCard {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-13px);
+        }
+      }
+
+      .visual-ring {
+        position: absolute;
+
+        width: 500px;
+        height: 500px;
+
+        right: -90px;
+        bottom: 0;
+
+        border-radius: 50%;
+
+        border: 1px dashed rgba(216, 104, 114, 0.25);
+
+        animation: spinRing 25s linear infinite;
+      }
+
+      .visual-ring::before {
+        content: "";
+
+        position: absolute;
+
+        width: 10px;
+        height: 10px;
+
+        background: var(--terracotta);
+
+        border-radius: 50%;
+
+        top: 20px;
+        left: 50%;
+
+        box-shadow: 0 0 0 7px rgba(224, 122, 95, 0.2);
+      }
+
+      @keyframes spinRing {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* =========================================================
+   07. TRUST BAR
+========================================================= */
+
+      .trust-bar {
+        background: var(--navy);
+
+        color: white;
+
+        padding: 24px 0;
+
+        overflow: hidden;
+      }
+
+      .trust-grid {
+        display: grid;
+
+        grid-template-columns: repeat(5, 1fr);
+
+        gap: 15px;
+      }
+
+      .trust-item {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 10px;
+
+        min-height: 30px;
+
+        border-right: 1px solid rgba(255, 255, 255, 0.09);
+      }
+
+      .trust-item:last-child {
+        border-right: 0;
+      }
+
+      .trust-item i {
+        color: var(--pink-city);
+      }
+
+      .trust-item span {
+        font-size: 11px;
+
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      /* =========================================================
+   08. SECTION HEAD
+========================================================= */
+
+      .section-kicker {
+        color: var(--pink-city);
+
+        font-size: 11px;
+
+        font-weight: 900;
+
+        text-transform: uppercase;
+
+        letter-spacing: 1.5px;
+
+        margin-bottom: 14px;
+      }
+
+      .section-head {
+        max-width: 720px;
+
+        margin-bottom: 58px;
+      }
+
+      .section-head h2 {
+        font-size: clamp(38px, 5vw, 60px);
+
+        line-height: 1.03;
+
+        letter-spacing: -3px;
+      }
+
+      .section-head p {
+        color: var(--muted);
+
+        line-height: 1.75;
+
+        margin-top: 17px;
+
+        max-width: 620px;
+      }
+
+      /* =========================================================
+   09. PROBLEM / SOLUTION
+========================================================= */
+
+      .problem-section {
+        background: linear-gradient(180deg, var(--cream), #fcf0f2);
+      }
+
+      .problem-grid {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+      }
+
+      .problem-card {
+        border-radius: 30px;
+
+        padding: 38px;
+
+        min-height: 360px;
+
+        position: relative;
+
+        overflow: hidden;
+
+        transition:
+          transform 0.5s var(--ease),
+          box-shadow 0.5s;
+      }
+
+      .problem-card:hover {
+        transform: translateY(-9px);
+
+        box-shadow: var(--shadow);
+      }
+
+      .problem-card.problem {
+        background: #fff3ef;
+
+        border: 1px solid rgba(255, 128, 82, 0.12);
+      }
+
+      .problem-card.solution {
+        background: var(--navy);
+
+        color: white;
+      }
+
+      .problem-label {
+        display: inline-flex;
+
+        padding: 7px 11px;
+
+        border-radius: 100px;
+
+        font-size: 10px;
+
+        font-weight: 900;
+
+        text-transform: uppercase;
+
+        letter-spacing: 1px;
+      }
+
+      .problem .problem-label {
+        background: rgba(255, 128, 82, 0.12);
+
+        color: #d9572d;
+      }
+
+      .solution .problem-label {
+        background: rgba(216, 104, 114, 0.2);
+
+        color: var(--pink-city);
+      }
+
+      .problem-card h3 {
+        font-size: 29px;
+
+        margin-top: 24px;
+
+        max-width: 430px;
+      }
+
+      .problem-list {
+        list-style: none;
+
+        margin-top: 25px;
+      }
+
+      .problem-list li {
+        display: flex;
+
+        align-items: flex-start;
+
+        gap: 11px;
+
+        margin: 13px 0;
+
+        font-size: 13px;
+
+        line-height: 1.5;
+      }
+
+      .problem li i {
+        color: #e36b42;
+        margin-top: 3px;
+      }
+
+      .solution li i {
+        color: #4bd68f;
+        margin-top: 3px;
+      }
+
+      .problem-decoration {
+        position: absolute;
+
+        width: 180px;
+        height: 180px;
+
+        right: -70px;
+        bottom: -70px;
+
+        border-radius: 50%;
+
+        border: 1px solid currentColor;
+
+        opacity: 0.08;
+      }
+
+      /* =========================================================
+   10. SUBJECTS
+========================================================= */
+
+      .subject-grid {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 20px;
+      }
+
+      .subject-card {
+        background: white;
+
+        border: 1px solid var(--line);
+
+        min-height: 390px;
+
+        padding: 35px;
+
+        border-radius: 30px;
+
+        position: relative;
+
+        overflow: hidden;
+
+        transition:
+          transform 0.5s var(--ease),
+          box-shadow 0.5s;
+      }
+
+      .subject-card:hover {
+        transform: translateY(-12px);
+
+        box-shadow: var(--shadow);
+      }
+
+      .subject-card::before {
+        content: "";
+
+        position: absolute;
+
+        width: 200px;
+        height: 200px;
+
+        border-radius: 50%;
+
+        right: -80px;
+        top: -80px;
+
+        background: var(--pink-light);
+      }
+
+      .subject-card.orange::before {
+        background: var(--orange-light);
+      }
+
+      .subject-card.green::before {
+        background: var(--green-light);
+      }
+
+      .subject-icon {
+        width: 62px;
+        height: 62px;
+
+        border-radius: 19px;
+
+        display: grid;
+        place-items: center;
+
+        color: var(--pink-city);
+        background: var(--pink-light);
+
+        font-size: 24px;
+
+        position: relative;
+      }
+
+      .orange .subject-icon {
+        color: var(--orange);
+        background: var(--orange-light);
+      }
+
+      .green .subject-icon {
+        color: var(--green);
+        background: var(--green-light);
+      }
+
+      .subject-card h3 {
+        font-size: 25px;
+
+        margin-top: 70px;
+      }
+
+      .subject-card p {
+        color: var(--muted);
+
+        line-height: 1.7;
+
+        font-size: 13px;
+
+        margin-top: 12px;
+      }
+
+      .subject-bottom {
+        position: absolute;
+
+        left: 35px;
+        right: 35px;
+        bottom: 29px;
+
+        display: flex;
+
+        align-items: end;
+
+        justify-content: space-between;
+      }
+
+      .subject-price strong {
+        display: block;
+
+        font-size: 22px;
+
+        font-family: "Manrope", sans-serif;
+      }
+
+      .subject-price span {
+        color: var(--muted);
+
+        font-size: 10px;
+      }
+
+      .subject-arrow {
+        width: 38px;
+        height: 38px;
+
+        border-radius: 50%;
+
+        display: grid;
+        place-items: center;
+
+        background: var(--ink);
+
+        color: white;
+
+        transition: 0.35s;
+      }
+
+      .subject-card:hover .subject-arrow {
+        background: var(--pink-city);
+
+        transform: rotate(-45deg);
+      }
+
+      /* =========================================================
+   11. OUTCOMES
+========================================================= */
+
+      .outcomes {
+        background: white;
+
+        overflow: hidden;
+      }
+
+      .outcome-layout {
+        display: grid;
+
+        grid-template-columns:
+          0.85fr
+          1.15fr;
+
+        gap: 90px;
+
+        align-items: center;
+      }
+
+      .outcome-copy h2 {
+        font-size: clamp(38px, 5vw, 57px);
+
+        line-height: 1.03;
+
+        letter-spacing: -2.5px;
+      }
+
+      .outcome-copy p {
+        color: var(--muted);
+
+        line-height: 1.8;
+
+        margin-top: 20px;
+      }
+
+      .outcome-note {
+        display: flex;
+
+        gap: 11px;
+
+        margin-top: 27px;
+
+        color: #495363;
+
+        font-size: 12px;
+
+        line-height: 1.6;
+      }
+
+      .outcome-note i {
+        color: var(--green);
+        margin-top: 3px;
+      }
+
+      .stats-grid {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 17px;
+      }
+
+      .stat-card {
+        padding: 31px;
+
+        border-radius: 25px;
+
+        background: var(--cream);
+
+        border: 1px solid var(--line);
+
+        transition: 0.4s var(--ease);
+      }
+
+      .stat-card:hover {
+        transform: translateY(-7px) rotate(0.5deg);
+
+        box-shadow: var(--shadow-sm);
+      }
+
+      .stat-icon {
+        width: 45px;
+        height: 45px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 14px;
+
+        background: white;
+
+        color: var(--pink-city);
+      }
+
+      .counter {
+        display: block;
+
+        font-family: "Manrope", sans-serif;
+
+        font-size: 38px;
+
+        font-weight: 800;
+
+        letter-spacing: -2px;
+
+        margin-top: 28px;
+      }
+
+      .stat-card p {
+        color: var(--muted);
+
+        font-size: 12px;
+
+        line-height: 1.5;
+
+        margin-top: 4px;
+      }
+
+      /* =========================================================
+   12. ABOUT
+========================================================= */
+
+      .about {
+        background: var(--cream);
+      }
+
+      .about-grid {
+        display: grid;
+
+        grid-template-columns:
+          0.9fr
+          1.1fr;
+
+        gap: 90px;
+
+        align-items: center;
+      }
+
+      .about-photo {
+        position: relative;
+      }
+
+      .about-photo img {
+        width: 100%;
+
+        aspect-ratio: 4/5;
+
+        object-fit: cover;
+
+        border-radius: 32px;
+
+        box-shadow: var(--shadow);
+      }
+
+      .about-sticker {
+        position: absolute;
+
+        right: -25px;
+        bottom: 25px;
+
+        background: var(--navy);
+
+        color: white;
+
+        border-radius: 22px;
+
+        padding: 22px;
+
+        box-shadow: var(--shadow);
+
+        min-width: 150px;
+      }
+
+      .about-sticker strong {
+        font-family: "Manrope", sans-serif;
+
+        font-size: 31px;
+
+        display: block;
+
+        color: var(--pink-city);
+      }
+
+      .about-sticker span {
+        font-size: 10px;
+
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .about-content h2 {
+        font-size: clamp(38px, 5vw, 57px);
+
+        line-height: 1.03;
+
+        letter-spacing: -2.5px;
+      }
+
+      .about-content > p {
+        color: var(--muted);
+
+        line-height: 1.8;
+
+        margin-top: 18px;
+      }
+
+      .credentials {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 12px;
+
+        margin-top: 30px;
+      }
+
+      .credential {
+        display: flex;
+
+        align-items: flex-start;
+
+        gap: 11px;
+
+        padding: 16px;
+
+        background: white;
+
+        border: 1px solid var(--line);
+
+        border-radius: 16px;
+      }
+
+      .credential i {
+        color: var(--pink-city);
+
+        margin-top: 3px;
+      }
+
+      .credential strong {
+        display: block;
+
+        font-size: 12px;
+      }
+
+      .credential span {
+        display: block;
+
+        color: var(--muted);
+
+        font-size: 10px;
+
+        margin-top: 3px;
+      }
+
+      /* =========================================================
+   13. BOARDS
+========================================================= */
+
+      .boards {
+        background: var(--navy);
+
+        color: white;
+
+        overflow: hidden;
+      }
+
+      .boards .section-kicker {
+        color: var(--pink-city);
+      }
+
+      .boards .section-head p {
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .board-grid {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 18px;
+      }
+
+      .board {
+        min-height: 270px;
+
+        padding: 30px;
+
+        border-radius: 25px;
+
+        background: rgba(255, 255, 255, 0.055);
+
+        border: 1px solid rgba(255, 255, 255, 0.08);
+
+        transition:
+          transform 0.45s var(--ease),
+          background 0.45s;
+      }
+
+      .board:hover {
+        transform: translateY(-9px);
+
+        background: rgba(255, 255, 255, 0.09);
+      }
+
+      .board-code {
+        width: 52px;
+        height: 52px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 16px;
+
+        background: rgba(216, 104, 114, 0.2);
+
+        color: var(--pink-city);
+
+        font-family: "Manrope", sans-serif;
+
+        font-weight: 800;
+      }
+
+      .board h3 {
+        font-size: 23px;
+
+        margin-top: 65px;
+      }
+
+      .board p {
+        color: rgba(255, 255, 255, 0.6);
+
+        font-size: 12px;
+
+        line-height: 1.7;
+
+        margin-top: 9px;
+      }
+
+      /* =========================================================
+   14. LEARNING JOURNEY
+========================================================= */
+
+      .journey {
+        background: white;
+      }
+
+      .journey-grid {
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 0;
+
+        position: relative;
+      }
+
+      .journey-grid::before {
+        content: "";
+
+        position: absolute;
+
+        top: 31px;
+
+        left: 10%;
+
+        right: 10%;
+
+        height: 1px;
+
+        background: linear-gradient(90deg, var(--pink-city), var(--terracotta));
+      }
+
+      .journey-step {
+        text-align: center;
+
+        padding: 0 15px;
+
+        position: relative;
+
+        z-index: 2;
+      }
+
+      .journey-number {
+        width: 62px;
+        height: 62px;
+
+        margin: auto;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 50%;
+
+        background: white;
+
+        border: 1px solid var(--pink-city);
+
+        color: var(--pink-city);
+
+        font-family: "Manrope", sans-serif;
+
+        font-weight: 900;
+
+        box-shadow: 0 0 0 8px white;
+
+        transition: 0.4s;
+      }
+
+      .journey-step:hover .journey-number {
+        background: var(--pink-city);
+
+        color: white;
+
+        transform: scale(1.1);
+      }
+
+      .journey-step h3 {
+        font-size: 17px;
+
+        margin-top: 27px;
+      }
+
+      .journey-step p {
+        color: var(--muted);
+
+        font-size: 11px;
+
+        line-height: 1.6;
+
+        margin-top: 7px;
+      }
+
+      /* =========================================================
+   15. WHY HOME TUITION
+========================================================= */
+
+      .home-tuition {
+        background: linear-gradient(180deg, #fcf0f2, var(--cream));
+      }
+
+      .benefit-grid {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 17px;
+      }
+
+      .benefit {
+        background: white;
+
+        padding: 27px;
+
+        border: 1px solid var(--line);
+
+        border-radius: 23px;
+
+        display: flex;
+
+        gap: 17px;
+
+        transition:
+          transform 0.4s var(--ease),
+          box-shadow 0.4s;
+      }
+
+      .benefit:hover {
+        transform: translateX(6px);
+
+        box-shadow: var(--shadow-sm);
+      }
+
+      .benefit-icon {
+        flex: none;
+
+        width: 50px;
+        height: 50px;
+
+        border-radius: 15px;
+
+        display: grid;
+        place-items: center;
+
+        background: var(--pink-light);
+
+        color: var(--pink-city);
+      }
+
+      .benefit h3 {
+        font-size: 17px;
+      }
+
+      .benefit p {
+        color: var(--muted);
+
+        font-size: 11px;
+
+        line-height: 1.6;
+
+        margin-top: 6px;
+      }
+
+      /* =========================================================
+   16. WHAT FIRST CLASS LOOKS LIKE
+========================================================= */
+
+      .first-class {
+        background: white;
+      }
+
+      .first-class-grid {
+        display: grid;
+
+        grid-template-columns:
+          1.1fr
+          0.9fr;
+
+        gap: 60px;
+
+        align-items: center;
+      }
+
+      .lesson-card {
+        padding: 35px;
+
+        border-radius: 30px;
+
+        background: var(--navy);
+
+        color: white;
+
+        box-shadow: var(--shadow-xl);
+
+        position: relative;
+
+        overflow: hidden;
+      }
+
+      .lesson-card::before {
+        content: "";
+
+        position: absolute;
+
+        width: 250px;
+        height: 250px;
+
+        border-radius: 50%;
+
+        right: -100px;
+        top: -100px;
+
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .lesson-label {
+        color: var(--pink-city);
+
+        font-size: 10px;
+
+        text-transform: uppercase;
+
+        letter-spacing: 1.3px;
+
+        font-weight: 900;
+      }
+
+      .lesson-card h3 {
+        font-size: 30px;
+
+        margin-top: 17px;
+
+        max-width: 430px;
+      }
+
+      .lesson-timeline {
+        margin-top: 30px;
+      }
+
+      .lesson-row {
+        display: grid;
+
+        grid-template-columns:
+          75px
+          1fr;
+
+        gap: 15px;
+
+        padding: 17px 0;
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .lesson-row:last-child {
+        border-bottom: 0;
+      }
+
+      .lesson-time {
+        color: var(--pink-city);
+
+        font-size: 10px;
+
+        font-weight: 800;
+      }
+
+      .lesson-row strong {
+        display: block;
+
+        font-size: 12px;
+      }
+
+      .lesson-row span {
+        display: block;
+
+        color: rgba(255, 255, 255, 0.6);
+
+        font-size: 10px;
+
+        margin-top: 4px;
+
+        line-height: 1.5;
+      }
+
+      .first-copy h2 {
+        font-size: clamp(38px, 5vw, 55px);
+
+        line-height: 1.04;
+
+        letter-spacing: -2.5px;
+      }
+
+      .first-copy p {
+        color: var(--muted);
+
+        line-height: 1.8;
+
+        margin-top: 18px;
+      }
+
+      .check-list {
+        list-style: none;
+
+        margin-top: 25px;
+      }
+
+      .check-list li {
+        display: flex;
+
+        gap: 10px;
+
+        margin: 13px 0;
+
+        font-size: 12px;
+      }
+
+      .check-list i {
+        color: var(--green);
+      }
+
+      /* =========================================================
+   17. SERVICE AREA (KHATIPURA, JAIPUR)
+========================================================= */
+
+      .service {
+        background: var(--cream);
+      }
+
+      .service-box {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        border-radius: 35px;
+
+        overflow: hidden;
+
+        background: white;
+
+        box-shadow: var(--shadow);
+
+        min-height: 440px;
+      }
+
+      .service-map {
+        position: relative;
+
+        background: linear-gradient(135deg, var(--pink-light), #fffbf8);
+
+        overflow: hidden;
+      }
+
+      .map-grid {
+        position: absolute;
+
+        inset: 0;
+
+        background-image:
+          linear-gradient(rgba(216, 104, 114, 0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(216, 104, 114, 0.08) 1px, transparent 1px);
+
+        background-size: 34px 34px;
+
+        transform: rotate(-4deg) scale(1.2);
+      }
+
+      .map-radius {
+        position: absolute;
+
+        width: 320px;
+        height: 320px;
+
+        border-radius: 50%;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        background: rgba(216, 104, 114, 0.1);
+
+        border: 1px solid rgba(216, 104, 114, 0.28);
+
+        animation: radiusPulse 3s infinite;
+      }
+
+      .map-radius::before {
+        content: "";
+
+        position: absolute;
+
+        inset: 35px;
+
+        border-radius: 50%;
+
+        border: 1px dashed rgba(216, 104, 114, 0.35);
+      }
+
+      .map-pin {
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        width: 60px;
+        height: 60px;
+
+        border-radius: 20px;
+
+        display: grid;
+        place-items: center;
+
+        background: var(--pink-city);
+
+        color: white;
+
+        box-shadow: 0 20px 50px rgba(216, 104, 114, 0.35);
+
+        z-index: 2;
+
+        animation: pinFloat 2s infinite;
+      }
+
+      @keyframes radiusPulse {
+        0%,
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+        }
+
+        50% {
+          transform: translate(-50%, -50%) scale(1.05);
+        }
+      }
+
+      @keyframes pinFloat {
+        0%,
+        100% {
+          transform: translate(-50%, -50%);
+        }
+
+        50% {
+          transform: translate(-50%, -58%);
+        }
+      }
+
+      .service-content {
+        padding: 55px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+      }
+
+      .service-content h2 {
+        font-size: clamp(38px, 5vw, 55px);
+
+        line-height: 1.03;
+
+        letter-spacing: -2.5px;
+      }
+
+      .service-content p {
+        color: var(--muted);
+
+        line-height: 1.8;
+
+        margin-top: 17px;
+      }
+
+      .radius-badge {
+        display: inline-flex;
+
+        align-items: center;
+
+        gap: 9px;
+
+        width: max-content;
+
+        margin-top: 25px;
+
+        padding: 11px 14px;
+
+        border-radius: 100px;
+
+        background: var(--pink-light);
+
+        color: var(--pink-dark);
+
+        font-size: 11px;
+
+        font-weight: 900;
+      }
+
+      /* =========================================================
+   18. PRICING
+========================================================= */
+
+      .pricing {
+        background: white;
+      }
+
+      .price-grid {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 18px;
+      }
+
+      .price-card {
+        border: 1px solid var(--line);
+
+        border-radius: 27px;
+
+        padding: 32px;
+
+        position: relative;
+
+        background: white;
+
+        transition: 0.5s var(--ease);
+      }
+
+      .price-card:hover {
+        transform: translateY(-10px);
+
+        box-shadow: var(--shadow);
+      }
+
+      .price-card.featured {
+        background: var(--navy);
+
+        color: white;
+
+        transform: translateY(-12px);
+
+        box-shadow: 0 30px 80px rgba(13, 20, 38, 0.2);
+      }
+
+      .price-card.featured:hover {
+        transform: translateY(-19px);
+      }
+
+      .price-tag {
+        position: absolute;
+
+        top: 18px;
+        right: 18px;
+
+        padding: 7px 10px;
+
+        border-radius: 100px;
+
+        background: var(--pink-city);
+
+        color: white;
+
+        font-size: 9px;
+
+        font-weight: 900;
+
+        text-transform: uppercase;
+      }
+
+      .price-card h3 {
+        font-size: 19px;
+
+        margin-top: 5px;
+      }
+
+      .price-card > p {
+        color: var(--muted);
+
+        font-size: 11px;
+
+        line-height: 1.6;
+
+        margin-top: 8px;
+      }
+
+      .featured > p {
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .price-value {
+        margin-top: 28px;
+
+        font-family: "Manrope", sans-serif;
+
+        font-size: 39px;
+
+        font-weight: 800;
+
+        letter-spacing: -2px;
+      }
+
+      .price-value span {
+        font-family: "DM Sans", sans-serif;
+
+        font-size: 10px;
+
+        font-weight: 500;
+
+        color: var(--muted);
+
+        letter-spacing: 0;
+      }
+
+      .featured .price-value span {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .price-features {
+        list-style: none;
+
+        margin-top: 25px;
+      }
+
+      .price-features li {
+        display: flex;
+
+        gap: 9px;
+
+        font-size: 11px;
+
+        margin: 12px 0;
+
+        color: #505a69;
+      }
+
+      .featured .price-features li {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .price-features i {
+        color: var(--green);
+      }
+
+      .price-button {
+        display: flex;
+
+        justify-content: center;
+
+        margin-top: 27px;
+
+        padding: 13px;
+
+        border-radius: 12px;
+
+        background: var(--ink);
+
+        color: white;
+
+        font-size: 11px;
+
+        font-weight: 800;
+
+        transition: 0.3s;
+      }
+
+      .price-button:hover {
+        background: var(--pink-city);
+      }
+
+      .featured .price-button {
+        background: white;
+        color: var(--ink);
+      }
+
+      .featured .price-button:hover {
+        background: var(--pink-city);
+        color: white;
+      }
+
+      /* =========================================================
+   19. SOCIAL PROOF & TESTIMONIAL CARDS
+========================================================= */
+
+      .testimonials {
+        background: linear-gradient(180deg, var(--cream), #fcf0f2);
+      }
+
+      .testimonial-grid {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 18px;
+      }
+
+      .testimonial {
+        padding: 30px;
+
+        border-radius: 25px;
+
+        background: white;
+
+        border: 1px solid var(--line);
+
+        transition: 0.45s var(--ease);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .testimonial:hover {
+        transform: translateY(-8px);
+
+        box-shadow: var(--shadow-sm);
+      }
+
+      .stars {
+        color: #ffad2e;
+
+        font-size: 12px;
+
+        letter-spacing: 2px;
+      }
+
+      .testimonial blockquote {
+        margin-top: 22px;
+
+        color: #374151;
+
+        font-size: 13px;
+
+        line-height: 1.8;
+      }
+
+      .testimonial-author {
+        display: flex;
+
+        align-items: center;
+
+        gap: 10px;
+
+        margin-top: 25px;
+      }
+
+      .author-avatar {
+        width: 39px;
+        height: 39px;
+
+        border-radius: 50%;
+
+        display: grid;
+        place-items: center;
+
+        background: var(--pink-city);
+
+        color: white;
+
+        font-weight: 800;
+
+        font-size: 12px;
+
+        letter-spacing: 0.5px;
+        flex-shrink: 0;
+      }
+
+      .author-name strong {
+        display: block;
+
+        font-size: 11px;
+      }
+
+      .author-name span {
+        display: block;
+
+        color: var(--muted);
+
+        font-size: 9px;
+
+        margin-top: 2px;
+      }
+
+      /* =========================================================
+   20. FAQ
+========================================================= */
+
+      .faq {
+        background: white;
+      }
+
+      .faq-layout {
+        display: grid;
+
+        grid-template-columns:
+          0.8fr
+          1.2fr;
+
+        gap: 80px;
+
+        align-items: start;
+      }
+
+      .faq-intro h2 {
+        font-size: clamp(38px, 5vw, 54px);
+
+        line-height: 1.03;
+
+        letter-spacing: -2.5px;
+      }
+
+      .faq-intro p {
+        color: var(--muted);
+
+        line-height: 1.75;
+
+        margin-top: 17px;
+      }
+
+      .faq-list {
+        border-top: 1px solid var(--line);
+      }
+
+      .faq-item {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .faq-question {
+        width: 100%;
+
+        border: 0;
+
+        background: none;
+
+        padding: 23px 0;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        cursor: pointer;
+
+        text-align: left;
+
+        color: var(--ink);
+
+        font-weight: 800;
+
+        font-size: 13px;
+      }
+
+      .faq-question i {
+        width: 30px;
+        height: 30px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 50%;
+
+        background: var(--cream);
+
+        color: var(--pink-city);
+
+        transition: 0.35s;
+      }
+
+      .faq-answer {
+        max-height: 0;
+
+        overflow: hidden;
+
+        transition: max-height 0.5s var(--ease);
+      }
+
+      .faq-answer p {
+        color: var(--muted);
+
+        font-size: 12px;
+
+        line-height: 1.75;
+
+        padding: 0 35px 22px 0;
+      }
+
+      .faq-item.open .faq-question i {
+        transform: rotate(45deg);
+
+        background: var(--pink-city);
+
+        color: white;
+      }
+
+      .faq-item.open .faq-answer {
+        max-height: 180px;
+      }
+
+      /* =========================================================
+   21. URGENCY CTA
+========================================================= */
+
+      .final-cta {
+        padding: 40px 0 120px;
+
+        background: white;
+      }
+
+      .final-box {
+        border-radius: 38px;
+
+        padding: 75px;
+
+        position: relative;
+
+        overflow: hidden;
+
+        background:
+          radial-gradient(
+            circle at 85% 20%,
+            rgba(216, 104, 114, 0.4),
+            transparent 28%
+          ),
+          var(--navy);
+
+        color: white;
+
+        text-align: center;
+      }
+
+      .final-box::before {
+        content: "";
+
+        position: absolute;
+
+        width: 550px;
+        height: 550px;
+
+        border-radius: 50%;
+
+        border: 1px solid rgba(255, 255, 255, 0.07);
+
+        top: -350px;
+        left: -80px;
+
+        animation: spinRing 30s linear infinite;
+      }
+
+      .final-box h2 {
+        position: relative;
+
+        font-size: clamp(40px, 6vw, 66px);
+
+        line-height: 1;
+
+        letter-spacing: -3px;
+
+        max-width: 760px;
+
+        margin: auto;
+      }
+
+      .final-box p {
+        position: relative;
+
+        max-width: 650px;
+
+        margin: 19px auto 28px;
+
+        color: rgba(255, 255, 255, 0.65);
+
+        line-height: 1.7;
+
+        font-size: 13px;
+      }
+
+      .final-box .btn {
+        position: relative;
+      }
+
+      /* =========================================================
+   22. CONTACT
+========================================================= */
+
+      .contact {
+        background: var(--cream);
+      }
+
+      .contact-grid {
+        display: grid;
+
+        grid-template-columns:
+          0.75fr
+          1.25fr;
+
+        gap: 70px;
+
+        align-items: start;
+      }
+
+      .contact-copy h2 {
+        font-size: clamp(38px, 5vw, 55px);
+
+        line-height: 1.03;
+
+        letter-spacing: -2.5px;
+      }
+
+      .contact-copy > p {
+        color: var(--muted);
+
+        line-height: 1.75;
+
+        margin-top: 17px;
+      }
+
+      .contact-detail {
+        display: flex;
+
+        gap: 13px;
+
+        margin-top: 25px;
+      }
+
+      .contact-icon {
+        flex: none;
+
+        width: 45px;
+        height: 45px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 13px;
+
+        background: var(--pink-light);
+
+        color: var(--pink-city);
+      }
+
+      .contact-detail strong {
+        display: block;
+
+        font-size: 12px;
+      }
+
+      .contact-detail span {
+        display: block;
+
+        color: var(--muted);
+
+        font-size: 11px;
+
+        margin-top: 3px;
+      }
+
+      .form-card {
+        background: white;
+
+        padding: 38px;
+
+        border-radius: 30px;
+
+        border: 1px solid var(--line);
+
+        box-shadow: var(--shadow-sm);
+      }
+
+      .form-card h3 {
+        font-size: 25px;
+      }
+
+      .form-card > p {
+        color: var(--muted);
+
+        font-size: 11px;
+
+        margin-top: 6px;
+      }
+
+      .form-grid {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 14px;
+
+        margin-top: 25px;
+      }
+
+      .field {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 7px;
+      }
+
+      .field.full {
+        grid-column: 1/-1;
+      }
+
+      .field label {
+        font-size: 10px;
+
+        font-weight: 900;
+      }
+
+      .field input,
+      .field select,
+      .field textarea {
+        width: 100%;
+
+        padding: 14px;
+
+        border: 1px solid var(--line);
+
+        background: var(--cream);
+
+        border-radius: 12px;
+
+        outline: none;
+
+        color: var(--ink);
+
+        transition: 0.3s;
+      }
+
+      .field textarea {
+        min-height: 105px;
+
+        resize: vertical;
+      }
+
+      .field input:focus,
+      .field select:focus,
+      .field textarea:focus {
+        border-color: var(--pink-city);
+
+        background: white;
+
+        box-shadow: 0 0 0 4px rgba(216, 104, 114, 0.12);
+      }
+
+      .submit-button {
+        width: 100%;
+
+        border: 0;
+
+        margin-top: 16px;
+
+        padding: 17px;
+
+        border-radius: 13px;
+
+        background: var(--green);
+
+        color: white;
+
+        font-size: 12px;
+
+        font-weight: 900;
+
+        cursor: pointer;
+
+        transition: 0.35s;
+      }
+
+      .submit-button:hover {
+        transform: translateY(-3px);
+
+        box-shadow: 0 15px 35px rgba(25, 170, 108, 0.25);
+      }
+
+      .form-status {
+        min-height: 18px;
+        margin-top: 9px;
+        text-align: center;
+        color: var(--green);
+        font-size: 10px;
+        font-weight: 700;
+      }
+
+      .form-status.error {
+        color: #c2412d;
+      }
+
+      .form-privacy {
+        text-align: center;
+
+        color: #98a0ac;
+
+        font-size: 9px;
+
+        margin-top: 11px;
+      }
+
+      /* =========================================================
+   23. FOOTER
+========================================================= */
+
+      footer {
+        background: var(--navy);
+
+        color: white;
+
+        padding: 35px 0;
+      }
+
+      .footer-inner {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        gap: 20px;
+      }
+
+      .footer-brand {
+        display: flex;
+
+        align-items: center;
+
+        gap: 11px;
+      }
+
+      .footer-brand-icon {
+        width: 39px;
+        height: 39px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 12px;
+
+        background: var(--pink-city);
+      }
+
+      .footer-brand strong {
+        font-size: 13px;
+      }
+
+      .footer-brand span {
+        display: block;
+
+        color: rgba(255, 255, 255, 0.4);
+
+        font-size: 9px;
+
+        margin-top: 3px;
+      }
+
+      .footer-copy {
+        color: rgba(255, 255, 255, 0.4);
+
+        font-size: 9px;
+      }
+
+      .footer-actions {
+        display: flex;
+
+        gap: 8px;
+      }
+
+      .footer-actions a {
+        width: 38px;
+        height: 38px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 50%;
+
+        background: rgba(255, 255, 255, 0.07);
+
+        transition: 0.3s;
+      }
+
+      .footer-actions a:hover {
+        background: var(--pink-city);
+
+        transform: translateY(-3px);
+      }
+
+      /* =========================================================
+   24. FLOATING WHATSAPP
+========================================================= */
+
+      .whatsapp-float {
+        position: fixed;
+
+        right: 22px;
+        bottom: 22px;
+
+        width: 61px;
+        height: 61px;
+
+        display: grid;
+        place-items: center;
+
+        border-radius: 50%;
+
+        background: #19aa6c;
+
+        color: white;
+
+        font-size: 27px;
+
+        z-index: 4000;
+
+        box-shadow: 0 17px 40px rgba(25, 170, 108, 0.32);
+
+        animation: whatsappPulse 2.7s infinite;
+      }
+
+      @keyframes whatsappPulse {
+        0%,
+        100% {
+          box-shadow: 0 17px 40px rgba(25, 170, 108, 0.32);
+        }
+
+        50% {
+          box-shadow:
+            0 17px 40px rgba(25, 170, 108, 0.32),
+            0 0 0 11px rgba(25, 170, 108, 0.07);
+        }
+      }
+
+      .whatsapp-label {
+        position: absolute;
+
+        right: 72px;
+
+        white-space: nowrap;
+
+        padding: 8px 11px;
+
+        border-radius: 9px;
+
+        background: var(--navy);
+
+        color: white;
+
+        font-size: 9px;
+
+        font-weight: 800;
+
+        opacity: 0;
+
+        transform: translateX(10px);
+
+        pointer-events: none;
+
+        transition: 0.3s;
+      }
+
+      .whatsapp-float:hover .whatsapp-label {
+        opacity: 1;
+
+        transform: none;
+      }
+
+      /* =========================================================
+   25. MOBILE CTA
+========================================================= */
+
+      .mobile-cta {
+        display: none;
+
+        position: fixed;
+
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        z-index: 3500;
+
+        padding: 10px;
+
+        background: rgba(255, 255, 255, 0.9);
+
+        backdrop-filter: blur(12px);
+
+        border-top: 1px solid var(--line);
+      }
+
+      .mobile-cta a {
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        gap: 9px;
+
+        padding: 13px;
+
+        background: var(--green);
+
+        color: white;
+
+        border-radius: 12px;
+
+        font-size: 11px;
+
+        font-weight: 900;
+      }
+
+      /* =========================================================
+   26. REVEAL SYSTEM
+========================================================= */
+
+      .reveal {
+        opacity: 0;
+
+        transform: translateY(35px);
+
+        transition:
+          opacity 0.85s ease,
+          transform 0.85s var(--ease);
+      }
+
+      .reveal.visible {
+        opacity: 1;
+
+        transform: none;
+      }
+
+      .reveal-left {
+        opacity: 0;
+
+        transform: translateX(-45px);
+
+        transition:
+          opacity 0.9s ease,
+          transform 0.9s var(--ease);
+      }
+
+      .reveal-left.visible {
+        opacity: 1;
+
+        transform: none;
+      }
+
+      .reveal-scale {
+        opacity: 0;
+
+        transform: scale(0.93);
+
+        transition:
+          opacity 0.8s ease,
+          transform 0.8s var(--ease);
+      }
+
+      .reveal-scale.visible {
+        opacity: 1;
+
+        transform: scale(1);
+      }
+
+      /* =========================================================
+   27. RESPONSIVE & MOBILE FIXES
+========================================================= */
+
+      @media (max-width: 1050px) {
+        .nav-links {
+          display: none;
+        }
+
+        .nav-toggle {
+          display: grid;
+        }
+
+        .nav-shell {
+          gap: 10px;
+          position: relative;
+          z-index: 5001;
+        }
+
+        .nav-cta {
+          margin-left: auto;
+        }
+
+        .mobile-nav {
+          display: grid;
+          grid-template-rows: 0fr;
+          gap: 0;
+          position: absolute;
+          top: calc(100% + 8px);
+          left: 0;
+          right: 0;
+          padding: 0 12px;
+          background: rgba(255, 255, 255, 0.98);
+          border: 1px solid transparent;
+          border-radius: 20px;
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+          overflow: hidden;
+          opacity: 0;
+          pointer-events: none;
+          transform: translateY(-8px);
+          transition:
+            grid-template-rows 0.35s var(--ease),
+            opacity 0.25s ease,
+            transform 0.35s var(--ease),
+            padding 0.35s var(--ease),
+            border-color 0.35s ease;
+          box-shadow: var(--shadow);
+          z-index: 5000;
+        }
+
+        .mobile-nav > * {
+          min-height: 0;
+        }
+
+        .mobile-nav.open {
+          grid-template-rows: 1fr;
+          gap: 2px;
+          padding: 10px 12px 14px;
+          border-color: var(--line);
+          opacity: 1;
+          pointer-events: auto;
+          transform: translateY(0);
+        }
+
+        .mobile-nav a {
+          display: flex;
+          align-items: center;
+          min-height: 44px;
+          padding: 10px 12px;
+          border-radius: 12px;
+          color: var(--ink);
+          font-size: 13px;
+          font-weight: 800;
+        }
+
+        .mobile-nav a:hover {
+          background: var(--pink-light);
+          color: var(--pink-city);
+        }
+
+        .mobile-nav .mobile-nav-cta {
+          justify-content: center;
+          margin-top: 6px;
+          background: var(--pink-city);
+          color: white;
+        }
+
+        .hero-grid,
+        .about-grid,
+        .outcome-layout,
+        .first-class-grid,
+        .faq-layout,
+        .contact-grid,
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .field.full {
+          grid-column: auto;
+        }
+
+        .hero-grid {
+          gap: 55px;
+        }
+
+        .hero-visual {
+          max-width: 560px;
+          width: 100%;
+          margin: auto;
+        }
+
+        .outcome-layout {
+          gap: 50px;
+        }
+
+        .first-class-grid {
+          gap: 40px;
+        }
+
+        .trust-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .trust-item:nth-child(4),
+        .trust-item:nth-child(5) {
+          display: none;
+        }
+
+        .subject-grid,
+        .board-grid,
+        .price-grid,
+        .testimonial-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .journey-grid {
+          grid-template-columns: 1fr 1fr;
+          gap: 40px;
+        }
+
+        .journey-grid::before {
+          display: none;
+        }
+
+        .service-box {
+          grid-template-columns: 1fr;
+        }
+
+        .service-map {
+          min-height: 390px;
+        }
+
+        .faq-layout {
+          gap: 40px;
+        }
+      }
+
+      @media (max-width: 680px) {
+        body {
+          padding-bottom: 65px;
+        }
+
+        .container {
+          width: min(calc(100% - 28px), 1180px);
+        }
+
+        section {
+          padding: 85px 0;
+        }
+
+        .navbar {
+          padding: 11px 0;
+        }
+
+        .nav-shell {
+          padding-left: 12px;
+        }
+
+        .brand-text {
+          font-size: 12px;
+        }
+
+        .brand-text small {
+          font-size: 8px;
+        }
+
+        .nav-cta {
+          padding: 11px 13px;
+          font-size: 10px;
+        }
+
+        .hero {
+          padding: 125px 0 60px;
+        }
+
+        .hero h1 {
+          font-size: 52px;
+          letter-spacing: -3px;
+        }
+
+        .hero-description {
+          font-size: 15px;
+        }
+
+        .hero-reassurance {
+          align-items: flex-start;
+        }
+
+        .hero-visual {
+          min-height: 520px;
+        }
+
+        .teacher-photo {
+          height: 475px;
+          width: 89%;
+        }
+
+        .floating-card {
+          transform: scale(0.88);
+        }
+
+        .card-a {
+          left: -15px;
+        }
+
+        .card-b {
+          left: -13px;
+          bottom: 45px;
+        }
+
+        .card-c {
+          right: -18px;
+        }
+
+        .visual-ring {
+          width: 400px;
+          height: 400px;
+        }
+
+        .trust-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .trust-item {
+          border: 0;
+          justify-content: flex-start;
+        }
+
+        .trust-item:nth-child(4),
+        .trust-item:nth-child(5) {
+          display: flex;
+        }
+
+        .trust-item span {
+          font-size: 9px;
+        }
+
+        .section-head {
+          margin-bottom: 40px;
+        }
+
+        .section-head h2 {
+          letter-spacing: -2px;
+        }
+
+        .problem-grid,
+        .subject-grid,
+        .board-grid,
+        .benefit-grid,
+        .price-grid,
+        .testimonial-grid,
+        .stats-grid,
+        .credentials {
+          grid-template-columns: 1fr;
+        }
+
+        .testimonial-grid {
+          gap: 16px;
+        }
+
+        .testimonial {
+          padding: 24px;
+        }
+
+        .problem-card {
+          min-height: auto;
+        }
+
+        .about-sticker {
+          right: 10px;
+        }
+
+        .journey-grid {
+          grid-template-columns: 1fr;
+          gap: 35px;
+        }
+
+        .journey-step {
+          text-align: left;
+          display: grid;
+          grid-template-columns: 62px 1fr;
+          gap: 17px;
+          align-items: start;
+        }
+
+        .journey-number {
+          margin: 0;
+        }
+
+        .journey-step h3 {
+          margin-top: 2px;
+        }
+
+        .journey-step p {
+          grid-column: 2;
+          margin-top: -5px;
+        }
+
+        .service-content {
+          padding: 35px 27px;
+        }
+
+        .service-map {
+          min-height: 330px;
+        }
+
+        .map-radius {
+          width: 250px;
+          height: 250px;
+        }
+
+        .price-card.featured {
+          transform: none;
+        }
+
+        .price-card.featured:hover {
+          transform: translateY(-8px);
+        }
+
+        .final-box {
+          padding: 50px 25px;
+          border-radius: 28px;
+        }
+
+        .final-box h2 {
+          letter-spacing: -2px;
+        }
+
+        .form-card {
+          padding: 25px;
+        }
+
+        .footer-inner {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .whatsapp-float {
+          display: none;
+        }
+
+        .mobile-cta {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- =========================================================
+      LOADER
+========================================================= -->
+
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <div class="loader-logo">
+          <i class="fa-solid fa-chalkboard-user"></i>
+        </div>
+
+        <div class="loader-title">Pink City learning space.</div>
+
+        <div class="loader-subtitle">Clarity · Practice · Confidence</div>
+
+        <div class="loader-progress">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================
+      NAVBAR
+========================================================= -->
+
+    <header class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-shell">
+          <a href="#home" class="brand">
+            <div class="brand-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <div class="brand-text">
+              Pink City Home Tuition
+
+              <small> KHATIPURA · JAIPUR </small>
+            </div>
+          </a>
+
+          <nav
+            class="nav-links"
+            id="desktopNav"
+            aria-label="Primary navigation"
+          >
+            <a href="#subjects">Subjects</a>
+
+            <a href="#about">Tutor</a>
+
+            <a href="#journey">Approach</a>
+
+            <a href="#pricing">Fees</a>
+
+            <a href="#faq">FAQ</a>
+          </nav>
+
+          <a href="#contact" class="nav-cta">
+            Check Availability
+
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="mobileNav"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+
+          <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+            <a href="#subjects">Subjects</a>
+            <a href="#about">Tutor</a>
+            <a href="#journey">Approach</a>
+            <a href="#pricing">Fees</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact" class="mobile-nav-cta">Check Availability</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- =========================================================
+      HERO WITH ARAVALLI MOUNTAINS
+========================================================= -->
+
+    <main>
+      <section class="hero" id="home">
+        <!-- SVG Mountain Vector Silhouette for Khatipura Aravalli feel -->
+        <svg
+          class="mountain-bg"
+          viewBox="0 0 1440 220"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 220L180 130L360 180L540 90L720 160L900 70L1080 150L1260 100L1440 220H0Z"
+            fill="#d86872"
+            fill-opacity="0.12"
+          />
+          <path
+            d="M0 220L240 150L480 190L680 120L920 180L1160 110L1440 170V220H0Z"
+            fill="#e07a5f"
+            fill-opacity="0.18"
+          />
+        </svg>
+
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <div class="hero-badge">
+                <span class="status-dot"></span>
+
+                HOME-TUITION IN KHATIPURA & NEARBY JAIPUR
+              </div>
+
+              <h1>
+                A better way to
+
+                <span class="accent"> understand </span>
+
+                what you study.
+              </h1>
+
+              <p class="hero-description">
+                Personalised home tuition for Class 11 & 12 Mathematics and
+                Computer Science in Khatipura, Jaipur — with one-to-one
+                attention, structured practice and teaching built around the
+                student's actual needs.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary magnetic">
+                  Check Tuition Availability
+
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="tel:+918226809994" class="btn btn-secondary">
+                  <i class="fa-solid fa-phone"></i>
+
+                  Talk to Avanit
+                </a>
+              </div>
+
+              <div class="hero-reassurance">
+                <div class="avatar-stack">
+                  <div class="avatar">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+
+                  <div class="avatar">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+
+                  <div class="avatar">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+
+                <span>
+                  Serving Khatipura & surrounding areas near the Aravalli hills.
+                  Discuss requirements before starting.
+                </span>
+              </div>
+            </div>
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual" id="heroVisual">
+              <div class="visual-ring"></div>
+
+              <div class="teacher-photo">
+                <img
+                  width="800"
+                  height="1032"
+                  src="https://images.unsplash.com/photo-1787850314810-24e5d07bc119?w=900&auto=format&fit=crop&q=60"
+                  alt="Avanit Kumar, personal home tutor in Khatipura, Jaipur"
+                  decoding="async"
+                  loading="eager"
+                  fetchpriority="high"
+                />
+
+                <div class="teacher-details">
+                  <small> YOUR PERSONAL TUTOR </small>
+
+                  <h3>Avanit Kumar</h3>
+
+                  <p>MCA · Pondicherry University · IT Professional</p>
+                </div>
+              </div>
+
+              <div class="floating-card card-a">
+                <div class="floating-icon">
+                  <i class="fa-solid fa-calculator"></i>
+                </div>
+
+                <div class="floating-text">
+                  <strong> Mathematics </strong>
+
+                  <span> Classes 11 & 12 </span>
+                </div>
+              </div>
+
+              <div class="floating-card card-b">
+                <div class="floating-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="floating-text">
+                  <strong> Computer Science </strong>
+
+                  <span> Concepts + Boards </span>
+                </div>
+              </div>
+
+              <div class="floating-card card-c">
+                <div class="floating-icon">
+                  <i class="fa-solid fa-mountain"></i>
+                </div>
+
+                <div class="floating-text">
+                  <strong> Khatipura, Jaipur </strong>
+
+                  <span> Home Tuition (~5 km) </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      TRUST BAR
+========================================================= -->
+
+      <section class="trust-bar">
+        <div class="container">
+          <div class="trust-grid">
+            <div class="trust-item">
+              <i class="fa-solid fa-award"></i>
+
+              <span> MCA · Pondicherry University </span>
+            </div>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-clock"></i>
+
+              <span> 2+ Years Teaching </span>
+            </div>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-book-open"></i>
+
+              <span> CBSE · RBSE · ICSE </span>
+            </div>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-user-group"></i>
+
+              <span> Personal Attention </span>
+            </div>
+
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+
+              <span> Khatipura · ~5 km </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      PROBLEM / SOLUTION
+========================================================= -->
+
+      <section class="problem-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Why Personal Tuition?</div>
+
+            <h2>Sometimes the problem isn't the student.</h2>
+
+            <p>
+              A classroom moves at one speed. A student learns at another. Home
+              tuition creates the space between those two speeds.
+            </p>
+          </div>
+
+          <div class="problem-grid">
+            <div class="problem-card problem reveal-left">
+              <div class="problem-label">What often happens</div>
+
+              <h3>“I understand in class… but I can't solve it myself.”</h3>
+
+              <ul class="problem-list">
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  Concepts remain partially understood.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  Questions are avoided because the basics feel weak.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  Doubts accumulate before exams.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  Study time increases without equal confidence.
+                </li>
+              </ul>
+
+              <div class="problem-decoration"></div>
+            </div>
+
+            <div class="problem-card solution reveal">
+              <div class="problem-label">What changes</div>
+
+              <h3>One tutor. One student. One focused learning plan.</h3>
+
+              <ul class="problem-list">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Difficult concepts can be slowed down and explained.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Practice can target the student's weak areas.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Questions can be discussed without hesitation.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Progress can be reviewed continuously.
+                </li>
+              </ul>
+
+              <div class="problem-decoration"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      SUBJECTS
+========================================================= -->
+
+      <section id="subjects">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Subjects</div>
+
+            <h2>Learn the subjects. Build the confidence.</h2>
+
+            <p>
+              Focused programmes for senior-secondary students and a separate
+              spoken-English option.
+            </p>
+          </div>
+
+          <div class="subject-grid">
+            <article class="subject-card reveal">
+              <div class="subject-icon">
+                <i class="fa-solid fa-square-root-variable"></i>
+              </div>
+
+              <h3>Mathematics</h3>
+
+              <p>
+                Concept clarity, guided problem solving, regular practice and
+                board-oriented preparation for Classes 11 & 12.
+              </p>
+
+              <div class="subject-bottom">
+                <div class="subject-price">
+                  <strong> ₹5,000 </strong>
+
+                  <span> per month </span>
+                </div>
+
+                <div class="subject-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </article>
+
+            <article class="subject-card orange reveal">
+              <div class="subject-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+
+              <h3>Mathematics + CS</h3>
+
+              <p>
+                A combined learning plan for students who want Mathematics and
+                Computer Science handled together.
+              </p>
+
+              <div class="subject-bottom">
+                <div class="subject-price">
+                  <strong> ₹7,000 </strong>
+
+                  <span> per month </span>
+                </div>
+
+                <div class="subject-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </article>
+
+            <article class="subject-card green reveal">
+              <div class="subject-icon">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+
+              <h3>Spoken English</h3>
+
+              <p>
+                A focused 3-month programme for vocabulary, communication,
+                confidence and everyday spoken English.
+              </p>
+
+              <div class="subject-bottom">
+                <div class="subject-price">
+                  <strong> ₹7,500 </strong>
+
+                  <span> 3-month course </span>
+                </div>
+
+                <div class="subject-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      OUTCOMES / COUNTERS
+========================================================= -->
+
+      <section class="outcomes">
+        <div class="container">
+          <div class="outcome-layout">
+            <div class="outcome-copy reveal-left">
+              <div class="section-kicker">What Tuition Should Achieve</div>
+
+              <h2>Not just more study. Better study.</h2>
+
+              <p>
+                The objective is not to keep a student dependent on tuition
+                forever. The objective is to help them understand how to
+                approach the subject independently.
+              </p>
+
+              <div class="outcome-note">
+                <i class="fa-solid fa-circle-check"></i>
+
+                <span>
+                  Progress varies from student to student. Sessions are adapted
+                  according to the student's starting level, goals and
+                  consistency.
+                </span>
+              </div>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-card reveal">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-user-graduate"></i>
+                </div>
+
+                <span class="counter" data-target="1"> 0 </span>
+
+                <p>Student at a time gets the tutor's attention.</p>
+              </div>
+
+              <div class="stat-card reveal">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+
+                <span class="counter" data-target="3"> 0 </span>
+
+                <p>Major school boards supported: CBSE, RBSE & ICSE.</p>
+              </div>
+
+              <div class="stat-card reveal">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-mountain-sun"></i>
+                </div>
+
+                <span class="counter" data-target="5"> 0 </span>
+
+                <p>Service radius in km around Khatipura.</p>
+              </div>
+
+              <div class="stat-card reveal">
+                <div class="stat-icon">
+                  <i class="fa-solid fa-calendar-check"></i>
+                </div>
+
+                <span class="counter" data-target="2"> 0 </span>
+
+                <p>Years of teaching experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      ABOUT Avanit
+========================================================= -->
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-photo reveal-left">
+              <img
+                width="500"
+                height="700"
+                src="https://images.unsplash.com/photo-1787849616795-a9faa6c4a610?w=900&auto=format&fit=crop&q=60"
+                alt="Teacher helping students"
+                decoding="async"
+                loading="lazy"
+              />
+
+              <div class="about-sticker">
+                <strong> 2+ </strong>
+
+                <span> YEARS OF TEACHING </span>
+              </div>
+            </div>
+
+            <div class="about-content reveal">
+              <div class="section-kicker">Meet Avanit</div>
+
+              <h2>An IT professional who enjoys teaching.</h2>
+
+              <p>
+                Avanit Kumar works in the IT sector from home in Khatipura,
+                Jaipur. Teaching is something he is passionate about, which is
+                why he is building a focused home-tuition practice alongside his
+                professional work.
+              </p>
+
+              <p>
+                His MCA background from Pondicherry University gives him a
+                strong foundation for Computer Science, while his teaching
+                approach focuses on making Mathematics logical, approachable and
+                practice-oriented.
+              </p>
+
+              <div class="credentials">
+                <div class="credential">
+                  <i class="fa-solid fa-graduation-cap"></i>
+
+                  <div>
+                    <strong> MCA </strong>
+
+                    <span> Pondicherry University </span>
+                  </div>
+                </div>
+
+                <div class="credential">
+                  <i class="fa-solid fa-briefcase"></i>
+
+                  <div>
+                    <strong> IT Professional </strong>
+
+                    <span> Works from Khatipura, Jaipur </span>
+                  </div>
+                </div>
+
+                <div class="credential">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+
+                  <div>
+                    <strong> 2+ Years </strong>
+
+                    <span> Teaching experience </span>
+                  </div>
+                </div>
+
+                <div class="credential">
+                  <i class="fa-solid fa-heart"></i>
+
+                  <div>
+                    <strong> Passionate Teacher </strong>
+
+                    <span> Personal attention first </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      BOARDS
+========================================================= -->
+
+      <section class="boards">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Board Coverage</div>
+
+            <h2>Different boards. Same goal: clarity.</h2>
+
+            <p>
+              Sessions can be aligned with the student's prescribed syllabus and
+              examination requirements.
+            </p>
+          </div>
+
+          <div class="board-grid">
+            <div class="board reveal">
+              <div class="board-code">CBSE</div>
+
+              <h3>CBSE Preparation</h3>
+
+              <p>
+                Concept building, syllabus coverage, question practice and
+                preparation for school and board examinations.
+              </p>
+            </div>
+
+            <div class="board reveal">
+              <div class="board-code">RBSE</div>
+
+              <h3>RBSE Preparation</h3>
+
+              <p>
+                Lessons can be structured around the student's Rajasthan Board
+                syllabus and current academic needs.
+              </p>
+            </div>
+
+            <div class="board reveal">
+              <div class="board-code">ICSE</div>
+
+              <h3>ICSE Preparation</h3>
+
+              <p>
+                Individual attention for concept understanding, written practice
+                and syllabus-oriented preparation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      LEARNING JOURNEY
+========================================================= -->
+
+      <section class="journey" id="journey">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">The Learning Journey</div>
+
+            <h2>A simple system that keeps learning moving.</h2>
+          </div>
+
+          <div class="journey-grid">
+            <div class="journey-step reveal">
+              <div class="journey-number">01</div>
+
+              <div>
+                <h3>Understand</h3>
+
+                <p>
+                  Identify what the student knows and where concepts are getting
+                  stuck.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-step reveal">
+              <div class="journey-number">02</div>
+
+              <div>
+                <h3>Explain</h3>
+
+                <p>
+                  Break difficult ideas into manageable steps using examples and
+                  discussion.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-step reveal">
+              <div class="journey-number">03</div>
+
+              <div>
+                <h3>Practise</h3>
+
+                <p>
+                  Apply the concept through carefully selected questions and
+                  exercises.
+                </p>
+              </div>
+            </div>
+
+            <div class="journey-step reveal">
+              <div class="journey-number">04</div>
+
+              <div>
+                <h3>Improve</h3>
+
+                <p>
+                  Review mistakes, strengthen weak areas and gradually build
+                  independence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      BENEFITS OF HOME TUITION
+========================================================= -->
+
+      <section class="home-tuition">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Why Home Tuition?</div>
+
+            <h2>The lesson comes to the student.</h2>
+
+            <p>
+              Home tuition is especially useful when convenience, concentration
+              and individual attention matter.
+            </p>
+          </div>
+
+          <div class="benefit-grid">
+            <div class="benefit reveal">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+
+              <div>
+                <h3>No travel for the student</h3>
+
+                <p>
+                  Save the time and effort involved in travelling across
+                  Khatipura to coaching centres.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit reveal">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div>
+                <h3>Personal attention</h3>
+
+                <p>
+                  Questions and explanations can stay focused on one student's
+                  actual needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit reveal">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+
+              <div>
+                <h3>More focused sessions</h3>
+
+                <p>
+                  A quieter learning environment can make it easier to stay
+                  engaged with difficult topics.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit reveal">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+
+              <div>
+                <h3>Ask without hesitation</h3>
+
+                <p>
+                  Students have room to ask the same question again until the
+                  idea becomes clear.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      FIRST CLASS
+========================================================= -->
+
+      <section class="first-class">
+        <div class="container">
+          <div class="first-class-grid">
+            <div class="lesson-card reveal-left">
+              <div class="lesson-label">Example First Session</div>
+
+              <h3>A first class should feel useful — not intimidating.</h3>
+
+              <div class="lesson-timeline">
+                <div class="lesson-row">
+                  <div class="lesson-time">10 MIN</div>
+
+                  <div>
+                    <strong> Understand the student </strong>
+
+                    <span>
+                      Current syllabus, confidence level, challenges and
+                      expectations.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="lesson-row">
+                  <div class="lesson-time">20 MIN</div>
+
+                  <div>
+                    <strong> Identify a concept </strong>
+
+                    <span>
+                      Work through a relevant topic and discover where the
+                      difficulty lies.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="lesson-row">
+                  <div class="lesson-time">25 MIN</div>
+
+                  <div>
+                    <strong> Guided practice </strong>
+
+                    <span>
+                      Solve examples together and explain the reasoning behind
+                      each step.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="lesson-row">
+                  <div class="lesson-time">05 MIN</div>
+
+                  <div>
+                    <strong> Next-step plan </strong>
+
+                    <span>
+                      Decide what should be reinforced in upcoming sessions.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="first-copy reveal">
+              <div class="section-kicker">No Pressure</div>
+
+              <h2>The first conversation is about fit.</h2>
+
+              <p>
+                Parents often want to know whether the tutor is suitable before
+                making a longer commitment. That's exactly what the enquiry is
+                for.
+              </p>
+
+              <ul class="check-list">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Discuss the student's current situation.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Talk about subject and board requirements.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Discuss preferred timing and location in Khatipura.
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Decide whether the arrangement makes sense.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      SERVICE AREA (KHATIPURA, JAIPUR)
+========================================================= -->
+
+      <section class="service">
+        <div class="container">
+          <div class="service-box reveal-scale">
+            <div class="service-map">
+              <div class="map-grid"></div>
+
+              <div class="map-radius"></div>
+
+              <div class="map-pin">
+                <i class="fa-solid fa-house"></i>
+              </div>
+            </div>
+
+            <div class="service-content">
+              <div class="section-kicker">Service Area</div>
+
+              <h2>Personal home tuition in Khatipura, Jaipur.</h2>
+
+              <p>
+                Avanit offers home tuition within an approximate 5 km radius of
+                Khatipura, Jaipur (near the Aravalli hills area), subject to
+                schedule and location.
+              </p>
+
+              <div class="radius-badge">
+                <i class="fa-solid fa-location-dot"></i>
+
+                Khatipura, Jaipur (~5 km radius)
+              </div>
+
+              <p style="font-size: 10px; color: #98a0ac; margin-top: 13px">
+                Online setup is currently in progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      PRICING
+========================================================= -->
+
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Simple Pricing</div>
+
+            <h2>Choose the learning plan that fits.</h2>
+
+            <p>
+              Straightforward pricing. The final arrangement can be discussed
+              based on schedule, location and requirements.
+            </p>
+          </div>
+
+          <div class="price-grid">
+            <div class="price-card reveal">
+              <h3>Mathematics</h3>
+
+              <p>Focused Class 11 & 12 Mathematics tuition.</p>
+
+              <div class="price-value">
+                ₹5,000
+                <span>/ month</span>
+              </div>
+
+              <ul class="price-features">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Personal home tuition
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Concept-focused learning
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Practice & problem solving
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  CBSE / RBSE / ICSE
+                </li>
+              </ul>
+
+              <a href="#contact" class="price-button"> Enquire Now </a>
+            </div>
+
+            <div class="price-card featured reveal">
+              <div class="price-tag">Popular</div>
+
+              <h3>Mathematics + CS</h3>
+
+              <p>
+                Combined support for two important senior-secondary subjects.
+              </p>
+
+              <div class="price-value">
+                ₹7,000
+                <span>/ month</span>
+              </div>
+
+              <ul class="price-features">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Mathematics + Computer Science
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  One integrated learning plan
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Concept + practice approach
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Board-oriented preparation
+                </li>
+              </ul>
+
+              <a href="#contact" class="price-button"> Check Availability </a>
+            </div>
+
+            <div class="price-card reveal">
+              <h3>Spoken English</h3>
+
+              <p>A focused 3-month communication programme.</p>
+
+              <div class="price-value">
+                ₹7,500
+                <span>/ 3 months</span>
+              </div>
+
+              <ul class="price-features">
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Speaking practice
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Vocabulary development
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Everyday communication
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Confidence building
+                </li>
+              </ul>
+
+              <a href="#contact" class="price-button"> Enquire Now </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      TESTIMONIALS
+========================================================= -->
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-kicker">Parent & Student Perspective</div>
+
+            <h2>Real stories from families in Khatipura.</h2>
+
+            <p>
+              Here is how personalized 1-on-1 home tuition has helped students
+              master complex subjects and perform better in their board exams.
+            </p>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial reveal">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+
+              <blockquote>
+                “Avanit explained Class 12 Calculus in a way that finally made
+                sense to my son. Having a tutor come right to our home in
+                Khatipura cleared all his doubts before boards.”
+              </blockquote>
+
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">RS</div>
+
+                <div class="author-name">
+                  <strong>Rajesh Sharma</strong>
+
+                  <span>Parent · Khatipura, Class 12 CBSE</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial reveal">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+
+              <blockquote>
+                “I used to struggle with Python programming in Computer Science.
+                Avanit Sir broke down logic step-by-step. Now it’s my strongest
+                subject!”
+              </blockquote>
+
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">PS</div>
+
+                <div class="author-name">
+                  <strong>Priya Singh</strong>
+
+                  <span>Student · Class 11 CBSE</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial reveal">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+
+              <blockquote>
+                “Finding a reliable home tutor in Jaipur was hard until we met
+                Avanit. Very punctual, structured approach, and great rapport
+                with students.”
+              </blockquote>
+
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">VM</div>
+
+                <div class="author-name">
+                  <strong>Vikram Meena</strong>
+
+                  <span>Parent · Class 12 RBSE</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      FAQ
+========================================================= -->
+
+      <section class="faq" id="faq">
+        <div class="container">
+          <div class="faq-layout">
+            <div class="faq-intro reveal-left">
+              <div class="section-kicker">Questions</div>
+
+              <h2>Before you enquire.</h2>
+
+              <p>
+                A few quick answers for parents and students considering home
+                tuition in Khatipura.
+              </p>
+            </div>
+
+            <div class="faq-list reveal">
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer1"
+                >
+                  Which classes do you teach?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer1" role="region">
+                  <p>
+                    The current focus is Classes 11 and 12, particularly
+                    Mathematics and Computer Science. Spoken English is offered
+                    separately.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer2"
+                >
+                  Which boards are supported?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer2" role="region">
+                  <p>
+                    CBSE, RBSE and ICSE students can enquire. The exact teaching
+                    plan is aligned with the student's syllabus and academic
+                    requirements.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer3"
+                >
+                  Where in Khatipura is home tuition available?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer3" role="region">
+                  <p>
+                    Current home tuition availability covers Khatipura and
+                    surrounding areas within a ~5 km radius in Jaipur, depending
+                    on schedule.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer4"
+                >
+                  Is online tuition available?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer4" role="region">
+                  <p>
+                    The online setup is currently in progress. At present, the
+                    focus is on home tuition in Khatipura.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer5"
+                >
+                  How do I know if the timing will work?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer5" role="region">
+                  <p>
+                    Submit the enquiry form with your preferred timing. Avanit
+                    can then contact you to discuss the schedule and current
+                    availability.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button
+                  class="faq-question"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faqAnswer6"
+                >
+                  How do I enquire?
+
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <div class="faq-answer" id="faqAnswer6" role="region">
+                  <p>
+                    Fill out the form below. Your enquiry will open directly in
+                    WhatsApp with the relevant details already prepared for
+                    Avanit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      FINAL CTA
+========================================================= -->
+
+      <section class="final-cta">
+        <div class="container">
+          <div class="final-box reveal-scale">
+            <div class="section-kicker" style="color: var(--pink-city)">
+              READY WHEN YOU ARE
+            </div>
+
+            <h2>Don't wait until the exam is close.</h2>
+
+            <p>
+              If your child is finding Mathematics or Computer Science
+              difficult, the best first step is simply to discuss the situation.
+              Send an enquiry and check whether Avanit's home-tuition schedule
+              in Khatipura is a good fit.
+            </p>
+
+            <a href="#contact" class="btn btn-primary magnetic">
+              Check Home Tuition Availability
+
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      CONTACT / LEAD FORM
+========================================================= -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-copy reveal-left">
+              <div class="section-kicker">Start Here</div>
+
+              <h2>Tell Avanit what you need.</h2>
+
+              <p>
+                It takes less than a minute. Share the basic details and the
+                enquiry will be prepared for WhatsApp.
+              </p>
+
+              <div class="contact-detail">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+
+                <div>
+                  <strong> WhatsApp </strong>
+
+                  <span> +91 8226809994 </span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                  <strong> Location </strong>
+
+                  <span> Khatipura, Jaipur · ~5 km radius </span>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+
+                <div>
+                  <strong> Current Mode </strong>
+
+                  <span> Home tuition · Online setup in progress </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-card reveal">
+              <h3>Request a tuition discussion</h3>
+
+              <p>Your details will be sent directly to Avanit on WhatsApp.</p>
+
+              <form id="leadForm">
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="name"> STUDENT / PARENT NAME * </label>
+
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      autocomplete="name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+
+                  <div class="field">
+                    <label for="phone"> PHONE NUMBER * </label>
+
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      inputmode="tel"
+                      autocomplete="tel"
+                      placeholder="+91..."
+                      required
+                    />
+                  </div>
+
+                  <div class="field">
+                    <label for="studentClass"> STUDENT CLASS * </label>
+
+                    <select id="studentClass" name="studentClass" required>
+                      <option value="">Select class</option>
+
+                      <option>Class 11</option>
+
+                      <option>Class 12</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="subject"> SUBJECT * </label>
+
+                    <select id="subject" name="subject" required>
+                      <option value="">Select subject</option>
+
+                      <option>Mathematics</option>
+
+                      <option>Computer Science</option>
+
+                      <option>Mathematics + Computer Science</option>
+
+                      <option>Spoken English</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="board"> BOARD </label>
+
+                    <select id="board" name="board">
+                      <option value="">Select board</option>
+
+                      <option>CBSE</option>
+
+                      <option>RBSE</option>
+
+                      <option>ICSE</option>
+                    </select>
+                  </div>
+
+                  <div class="field">
+                    <label for="preferredTime"> PREFERRED TIME </label>
+
+                    <input
+                      id="preferredTime"
+                      name="preferredTime"
+                      type="text"
+                      placeholder="e.g. 5 PM – 7 PM"
+                    />
+                  </div>
+
+                  <div class="field full">
+                    <label for="area"> AREA / LOCALITY </label>
+
+                    <input
+                      id="area"
+                      name="area"
+                      type="text"
+                      autocomplete="address-level2"
+                      placeholder="e.g. Khatipura, Vaishali Nagar..."
+                      value="Khatipura, Jaipur"
+                    />
+                  </div>
+
+                  <div class="field full">
+                    <label for="message"> MESSAGE </label>
+
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Tell Avanit about the student's requirements, current difficulty, exam goal, etc."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="submit-button">
+                  <i class="fa-brands fa-whatsapp"></i>
+
+                  Send Enquiry on WhatsApp
+                </button>
+
+                <div
+                  class="form-status"
+                  id="formStatus"
+                  role="status"
+                  aria-live="polite"
+                ></div>
+
+                <div class="form-privacy">
+                  Your enquiry opens in WhatsApp. No account or website
+                  registration is required.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+      FOOTER
+========================================================= -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <div class="footer-brand-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <div>
+              <strong> Avanit Kumar </strong>
+
+              <span> Personal Home Tutor · Khatipura, Jaipur </span>
+            </div>
+          </div>
+
+          <div class="footer-copy">
+            © <span id="year"></span>
+            Avanit Kumar. All rights reserved.
+          </div>
+
+          <div class="footer-actions">
+            <a href="tel:+918226809994" aria-label="Call Avanit">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+
+            <a
+              href="https://wa.me/918226809994"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp Avanit"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =========================================================
+      FLOATING WHATSAPP
+========================================================= -->
+
+    <a
+      href="https://wa.me/918226809994"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+      aria-label="Contact Avanit on WhatsApp"
+    >
+      <span class="whatsapp-label"> Chat with Avanit </span>
+
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- =========================================================
+      MOBILE CTA
+========================================================= -->
+
+    <div class="mobile-cta">
+      <a href="#contact">
+        <i class="fa-brands fa-whatsapp"></i>
+
+        WhatsApp to Check Availability
+      </a>
+    </div>
+
+    <script>
+      /* =========================================================
+   LOADER
+========================================================= */
+
+      const hideLoader = () => {
+        document.body.classList.add("no-scroll");
+
+        const loader = document.getElementById("loader");
+
+        const finish = () => {
+          loader?.classList.add("done");
+          document.body.classList.remove("no-scroll");
+        };
+
+        if ("requestIdleCallback" in window) {
+          requestIdleCallback(finish, { timeout: 900 });
+        } else {
+          window.setTimeout(finish, 420);
+        }
+      };
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", hideLoader, {
+          once: true,
+        });
+      } else {
+        hideLoader();
+      }
+
+      /* =========================================================
+   NAVBAR
+========================================================= */
+
+      const navbar = document.getElementById("navbar");
+      const navToggle = document.getElementById("navToggle");
+      const mobileNav = document.getElementById("mobileNav");
+
+      const closeMobileNav = () => {
+        if (!navToggle || !mobileNav) return;
+
+        mobileNav.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.setAttribute("aria-label", "Open navigation menu");
+
+        const icon = navToggle.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-xmark");
+          icon.classList.add("fa-bars");
+        }
+      };
+
+      navToggle?.addEventListener("click", () => {
+        const isOpen = mobileNav?.classList.toggle("open");
+        navToggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
+        navToggle.setAttribute(
+          "aria-label",
+          isOpen ? "Close navigation menu" : "Open navigation menu",
+        );
+
+        const icon = navToggle.querySelector("i");
+        if (icon) {
+          icon.classList.toggle("fa-bars", !isOpen);
+          icon.classList.toggle("fa-xmark", Boolean(isOpen));
+        }
+      });
+
+      mobileNav?.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMobileNav);
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 1050) closeMobileNav();
+      });
+
+      let navFrame = 0;
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (navFrame) return;
+
+          navFrame = requestAnimationFrame(() => {
+            navbar.classList.toggle("scrolled", window.scrollY > 50);
+            navFrame = 0;
+          });
+        },
+        { passive: true },
+      );
+
+      /* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+
+        {
+          threshold: 0.12,
+        },
+      );
+
+      document
+        .querySelectorAll(".reveal,.reveal-left,.reveal-scale")
+        .forEach((element) => {
+          revealObserver.observe(element);
+        });
+
+      /* =========================================================
+   COUNTER ANIMATION
+========================================================= */
+
+      const counters = document.querySelectorAll(".counter");
+
+      const counterObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+
+            const counter = entry.target;
+
+            const target = Number(counter.dataset.target);
+
+            const duration = 1100;
+
+            const start = performance.now();
+
+            function update(time) {
+              const progress = Math.min((time - start) / duration, 1);
+
+              const eased = 1 - Math.pow(1 - progress, 3);
+
+              counter.textContent = Math.floor(eased * target);
+
+              if (progress < 1) {
+                requestAnimationFrame(update);
+              } else {
+                counter.textContent = target;
+              }
+            }
+
+            requestAnimationFrame(update);
+
+            counterObserver.unobserve(counter);
+          });
+        },
+
+        {
+          threshold: 0.7,
+        },
+      );
+
+      counters.forEach((counter) => {
+        counterObserver.observe(counter);
+      });
+
+      /* =========================================================
+   FAQ
+========================================================= */
+
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const item = button.parentElement;
+          const willOpen = !item.classList.contains("open");
+
+          document.querySelectorAll(".faq-item").forEach((other) => {
+            const otherButton = other.querySelector(".faq-question");
+            other.classList.remove("open");
+            otherButton?.setAttribute("aria-expanded", "false");
+          });
+
+          item.classList.toggle("open", willOpen);
+          button.setAttribute("aria-expanded", String(willOpen));
+        });
+      });
+
+      /* =========================================================
+   HERO PARALLAX
+========================================================= */
+
+      const heroVisual = document.getElementById("heroVisual");
+
+      if (
+        heroVisual &&
+        !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ) {
+        let parallaxX = 0;
+        let parallaxY = 0;
+        let parallaxFrame = 0;
+
+        window.addEventListener(
+          "mousemove",
+          (event) => {
+            parallaxX = (window.innerWidth / 2 - event.clientX) / 90;
+            parallaxY = (window.innerHeight / 2 - event.clientY) / 90;
+
+            if (!parallaxFrame) {
+              parallaxFrame = requestAnimationFrame(() => {
+                heroVisual.style.transform = `translate3d(${parallaxX}px,${parallaxY}px,0)`;
+                parallaxFrame = 0;
+              });
+            }
+          },
+          { passive: true },
+        );
+      }
+
+      /* =========================================================
+   MAGNETIC BUTTONS
+========================================================= */
+
+      document.querySelectorAll(".magnetic").forEach((button) => {
+        let frame = 0;
+        let x = 0;
+        let y = 0;
+
+        button.addEventListener(
+          "mousemove",
+          (event) => {
+            const rect = button.getBoundingClientRect();
+
+            x = (event.clientX - rect.left - rect.width / 2) * 0.12;
+            y = (event.clientY - rect.top - rect.height / 2) * 0.12;
+
+            if (!frame) {
+              frame = requestAnimationFrame(() => {
+                button.style.transform = `translate3d(${x}px,${y}px,0)`;
+                frame = 0;
+              });
+            }
+          },
+          { passive: true },
+        );
+
+        button.addEventListener("mouseleave", () => {
+          button.style.transform = "";
+        });
+      });
+
+      /* =========================================================
+   WHATSAPP FORM
+========================================================= */
+
+      const leadForm = document.getElementById("leadForm");
+      const formStatus = document.getElementById("formStatus");
+
+      leadForm?.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const submitButton = leadForm.querySelector(".submit-button");
+        const name = document.getElementById("name").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const studentClass = document.getElementById("studentClass").value;
+        const subject = document.getElementById("subject").value;
+        const board = document.getElementById("board").value || "Not specified";
+        const preferredTime =
+          document.getElementById("preferredTime").value.trim() ||
+          "Not specified";
+        const area =
+          document.getElementById("area").value.trim() || "Khatipura, Jaipur";
+        const message =
+          document.getElementById("message").value.trim() ||
+          "No additional message";
+
+        const phoneDigits = phone.replace(/\D/g, "");
+
+        formStatus?.classList.remove("error");
+        if (formStatus) formStatus.textContent = "";
+
+        if (!name || !studentClass || !subject) {
+          if (formStatus) {
+            formStatus.textContent =
+              "Please complete your name, class and subject.";
+            formStatus.classList.add("error");
+          }
+          return;
+        }
+
+        if (phoneDigits.length < 10 || phoneDigits.length > 15) {
+          if (formStatus) {
+            formStatus.textContent = "Please enter a valid phone number.";
+            formStatus.classList.add("error");
+          }
+          document.getElementById("phone")?.focus();
+          return;
+        }
+
+        const whatsappText = `Hello Avanit,
+
+I found your home-tuition website and would like to enquire about tuition in Khatipura, Jaipur.
+
+━━━━━━━━━━━━━━━━━━
+
+STUDENT / PARENT
+Name: ${name}
+Phone: ${phone}
+
+ACADEMIC DETAILS
+Class: ${studentClass}
+Subject: ${subject}
+Board: ${board}
+
+PREFERENCES
+Preferred Time: ${preferredTime}
+Area / Locality: ${area}
+
+MESSAGE
+${message}
+
+━━━━━━━━━━━━━━━━━━
+
+Please let me know about your current availability.
+
+Thank you.`;
+
+        const whatsappNumber = "918226809994";
+        const whatsappURL =
+          "https://wa.me/" +
+          whatsappNumber +
+          "?text=" +
+          encodeURIComponent(whatsappText);
+
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.setAttribute("aria-busy", "true");
+          submitButton.dataset.originalText = submitButton.innerHTML;
+          submitButton.innerHTML =
+            '<i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Opening WhatsApp…';
+        }
+
+        const popup = window.open(whatsappURL, "_blank", "noopener,noreferrer");
+
+        if (!popup) {
+          window.location.href = whatsappURL;
+          return;
+        }
+
+        if (formStatus) {
+          formStatus.textContent =
+            "WhatsApp is opening with your enquiry prepared.";
+        }
+
+        window.setTimeout(() => {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.removeAttribute("aria-busy");
+            submitButton.innerHTML =
+              submitButton.dataset.originalText ||
+              '<i class="fa-brands fa-whatsapp"></i> Send Enquiry on WhatsApp';
+          }
+        }, 1200);
+      });
+
+      /* =========================================================
+   YEAR
+========================================================= */
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      /* =========================================================
+   SMOOTH NAVIGATION OFFSET
+========================================================= */
+
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const id = link.getAttribute("href");
+
+          if (id === "#" || !document.querySelector(id)) {
+            return;
+          }
+
+          event.preventDefault();
+
+          const target = document.querySelector(id);
+
+          closeMobileNav();
+
+          const offset = navbar?.getBoundingClientRect().height + 14 || 90;
+
+          const top =
+            target.getBoundingClientRect().top + window.scrollY - offset;
+
+          window.scrollTo({
+            top,
+
+            behavior: "smooth",
+          });
+        });
+      });
+
+      /* =========================================================
+   IMAGE ERROR FALLBACK
+========================================================= */
+
+      document.querySelectorAll("img").forEach((image) => {
+        image.addEventListener("error", () => {
+          image.style.background = "linear-gradient(135deg,#fdf0f2,#fafafa)";
+        });
+      });
+    </script>
+  </body>
+</html>
